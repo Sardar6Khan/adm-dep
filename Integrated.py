@@ -125,7 +125,7 @@ st.pyplot()
 #######################k-means##############################################
 st.title('K-Means Clustering to determine the popularity')
 st.markdown('## All videos distribution')
-df = pd.read_csv('YouTube.csv')
+#df = pd.read_csv('YouTube.csv')
 le_category = LabelEncoder()
 df['pop_per'] = df['views']
 inputs = df[['like_percentage', 'pop_per']]
